@@ -117,7 +117,7 @@ createApp(App).mount('#app')
 ```
 
 
-App.vue
+App.vue  (这个是整个 project 的根文件)
 ```vue
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
