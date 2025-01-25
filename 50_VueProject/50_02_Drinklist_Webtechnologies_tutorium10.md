@@ -393,6 +393,7 @@ import addDrink from './components/addDrink.vue';
 ```
 
 ```html
+<!-- addDrinkModal is eine id von html element in addDrink.vue. data-bs-toggle="modal"  modal ist 点击button, 会弹出一个窗口, 就是 modal 互動視窗 形式 -->
 <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#addDrinkModal">Add new drink</button>
 <addDrink @addedDrink="addToStock($event)"/>
 ```
