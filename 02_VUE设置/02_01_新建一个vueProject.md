@@ -2,15 +2,33 @@
 
 # 1 步骤
 
-## 1.1 创建 vue project 以及 运行这个项目
+## 1.1 创建 vue project 
 
-1
+方法 1 
 `npm create vue@latest`  oder `npm create vite@latest`
 
 
 ![](image/Bildschirmfoto_2024-11-22_um_14.41.06.webp)
 
-2
+
+---
+
+方法2 
+
+安装 vue cli 
+ npm install -g @vue/cli
+
+创造 vue 项目 
+`vue create <projectname>`  projectname 必须小写
+
+![](image/Pasted%20image%2020250312125955.png)
+
+![](image/Pasted%20image%2020250312130009.png)
+
+![](image/Pasted%20image%2020250312130022.png)
+
+
+## 1.2 下载包
 cd projektName
 
 然后 安装依赖包：进入自定义的项目下，运行命令
@@ -25,8 +43,13 @@ cd projektName
 
 ![](image/Pasted%20image%2020241217231052.png)
 
-3
-执行npm run dev  启动项目啦
+## 1.3 执行npm run dev  启动项目啦
+
+![](image/Pasted%20image%2020250312130223.png)
+
+npm run dev 是 在在前端 启动一个web服务器 
+同时把这个网页通过 这个 web server 启动 
+
 
 ```
 🦄  npm run dev
@@ -46,7 +69,7 @@ cd projektName
 用 http://localhost:5173/ 去访问项目
 
 
-## 1.2 往这个 project 中添加一个新的 npm package 
+## 1.4 往这个 project 中添加一个新的 npm package 
 
 在这个 vue project 的目录下
 
